@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(234, 235, 247);
+    color: rgb(15, 14, 14);
+    font-family: "Grey Qo", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-family: "Grey Qo", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+}
